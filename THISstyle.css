@@ -1,0 +1,259 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', 'Geneva', 'Verdana', 
+    'sans-serif';
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF,
+     #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    line-height:1.6em;
+    margin:0;
+}
+
+p{
+    text-align:center;
+    color:slategray;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+.box-1{
+    background-color:slategray;
+    color:whitesmoke;
+    border: 8px yellowgreen dotted;
+    padding:15px;
+    margin-top:30px 0;
+    text-align:center;
+    text-transform:uppercase;
+    border-radius:15px;
+}
+
+#occupation {
+    text-align=center;
+    color:yellowgreen;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:24;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.box-2 h1{
+    font-family:'Verdana,' 'Geneva,' 'Tahoma,' 'sans-serif';
+    color:darkcyan;
+    border:3px dotted black;
+    padding:20px;
+    margin:20px;
+    background-color:plum;
+    opacity:0.4;
+    font-size:20px;
+    text-align:center;
+}
+
+.box-3 h1{
+    font-family:'Marker felt,' 'Fantasy';
+    color:slategrey;
+    border:none;
+    text-align:center;
+}
+
+#aspiring{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:30px;
+    color:rgba(255, 166, 0, 0.783);
+    padding-top:15px;
+    padding-bottom:2px;
+}
+
+#coolfact {
+    font-size:18px;
+    color:dimgray;
+}
+
+.box-4 h1{
+    color:darkcyan;
+    padding-top:15px;
+    text-align:center;
+}
+
+.categoriesFirst {
+    color:dimgray;
+    text-align:center;
+    font-size:14px;
+}
+
+.categoriesFirst h2{
+    text-align:center;
+}
+
+.categoriesFirst ul{
+    padding:0;
+    list-style:none;
+    margin:10px;
+}
+
+.categoriesFirst li{
+    padding-bottom:8px;
+    line-height:0.8em;
+
+}
+
+
+
+
+.categories1 {
+    color:dimgray;
+    text-align:center;
+    font-size:14px;
+}
+
+.categories1 h2{
+    text-align:center;
+}
+
+.categories1 ul{
+    padding:0;
+    list-style:none;
+    margin:10px;
+}
+
+.categories1 li{
+    padding-bottom:8px;
+    line-height:0.8em;
+
+}
+
+.categories2 {
+    color:dimgray;
+    text-align:center;
+    font-size:14px;
+}
+
+.categories2 h2{
+    text-align:center;
+}
+
+.categories2 ul{
+    padding:0;
+    list-style:none;
+    margin:10px;
+}
+
+.categories2 li{
+    padding-bottom:8px;
+    line-height:0.8em;
+
+}
+
+.categories3 {
+    color:dimgray;
+    text-align:center;
+    font-size:14px;
+}
+
+.categories3 h2{
+    text-align:center;
+}
+
+.categories3 ul{
+    padding:0;
+    list-style:none;
+    margin:10px;
+}
+
+.categories3 li{
+    padding-bottom:8px;
+    line-height:0.8em;
+}
+
+.categories4 {
+    color:dimgray;
+    text-align:center;
+    font-size:14px;
+}
+
+.categories4 h2{
+    text-align:center;
+}
+
+.categories4 ul{
+    padding:0;
+    list-style:none;
+    margin:10px;
+}
+
+.categories4 li{
+    padding-bottom:8px;
+    line-height:0.8em;
+}
+
+.box-5 h1{
+    color:brown;
+    text-align:center;
+    padding:12px;
+    font-size:22px;
+}
+
+.Schools{
+    line-height:0.8em;
+    padding-bottom:10px;
+}
+
+
+a{
+    padding:3px;
+    text-decoration: none;
+    color: black;
+    border:2px solid teal;
+    margin:20px;
+    line-height: 2.6em;
+    border-radius:15px;
+    margin-left:200px; 
+    
+}
+
+a:hover{
+    color:salmon;
+}
+
+a:active{
+    color:purple;
+}
+
+a:visited{
+    color:maroon;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.box-6{
+    padding:20px;
+    font-style:'Arial Narrow,' 'sans-serif';
+    color:darkblue;
+    opacity: 0.4;
+    border: 4px black solid;
+    border-radius:15px;
+    margin-right:30px;
+    margin-left:30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.success {
+    color: white;
+    background-color: darkslategrey
+}
+
+.success:hover {
+    background-color: plum;
+    color: white;
+}
+
+
+<!---Social Media Buttons--->
