@@ -1,17 +1,44 @@
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', 'Geneva', 'Verdana', 
-    'sans-serif';
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF,
-     #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/*
-    line-height:1.6em;
-    margin:0;
+html, body{
+    height: 100%;
+    width: 100%;
 }
 
+.navbar {
+    background-color: transparent;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+/*logo photo*/
+.navbar-brand{
+    min-height:55px;
+    padding:0 15px 5px;
+}
+/*navbar links*/
+.navbar-default .navbar-nav li a {
+    color:#D5D5D5;
+}
+/*hovering on the navbar */
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 p{
     text-align:center;
     color:slategray;
