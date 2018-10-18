@@ -70,7 +70,7 @@ footer{
 .fa {
     padding: 15px;
     font-size: 25px;
-    color: ivory;
+    color: mistyrose;
 }
 .fa:hover {
     color: black;
@@ -104,6 +104,7 @@ footer{
 }
 
 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
 
