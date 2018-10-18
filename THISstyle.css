@@ -4,7 +4,7 @@ html, body{
 }
 
 .navbar {
-    background-color: transparent;
+    background-color:whitesmoke;
     padding: 1% 0;
     font-size: 1.2em;
 }
@@ -23,12 +23,85 @@ html, body{
     color:black;
 }
 
+#home{
+    background: url(images/flowers.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width:100%;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1{
+    font-size:500%;
+    font-weight:700;
+}
+
+/*padding div classes*/
+.padding{
+    padding: 80px 0;
+}
+.padding img {
+    width: 100%;
+}
+#fixed{
+    background: url(images/flowers.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width:100%;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    background-color:slategray;
+    padding: 5% 5% 10% 5%;
+    color:mistyrose;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: ivory;
+}
+.fa:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.icon{
+    max-width: 300px;
+    border-radius:15px;
+}
 
 
 
 
 
 
+
+/*Mobile friendly css code... just playing around but...*/
+@media(max-width: 768px){
+    .landing-text h1{
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon{
+        padding-top:5%;
+        max-width:100px;
+    }
+}
 
 
 
