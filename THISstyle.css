@@ -10,11 +10,11 @@ html, body{
 }
 
 /*logo photo*/
-.navbar-brand{
+.fas{
     min-height:55px;
-    padding:0 15px 5px;
+    padding:0 15px 5px 15px;
 }
-/*navbar links*/
+/*navbar tab labels*/
 .navbar-default .navbar-nav li a {
     color:#D5D5D5;
 }
@@ -39,9 +39,28 @@ html, body{
     vertical-align: middle;
 }
 
+/*Angela Montanye*/
 .landing-text h1{
-    font-size:500%;
+    font-size:540%;
     font-weight:700;
+    color:steelblue;
+}
+
+/*Software Engineer*/
+.landing-text h3{
+    font: size 500%;
+    font-weight: 450;
+    color:darkorange
+}
+
+/*button*/
+.landing-text a{
+    border: 4px;
+    border-radius:55px;
+    background-color: transparent;
+    border-style: dotted;
+    border-color: plum;
+    color:slategray;
 }
 
 /*padding div classes*/
@@ -60,6 +79,8 @@ html, body{
     background-size: cover;
 }
 
+
+}
 footer{
     width: 100%;
     background-color:whitesmoke;
