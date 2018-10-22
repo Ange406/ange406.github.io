@@ -123,6 +123,28 @@ footer{
         max-width:100px;
     }
 }
+
+/*SecondPage Starts here*/
+.headingText {
+    color:orange;
+    text-align: center;
+}
+
+.jobTitles{
+    color:yellow;
+}
+
+ #description li{
+    color:dimgray;
+    text-align: center;
+    size: 10em;
+    list-style-type: none;
+
+}
+
+
+
+
 /*JSCODE DELETE IF BROKEN*/
 body {
     background-color:snow;
@@ -135,6 +157,7 @@ body {
 /*END OF JSCODE*/
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 
 
