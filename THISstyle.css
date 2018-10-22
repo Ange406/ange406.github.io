@@ -13,6 +13,7 @@ html, body{
 .fas{
     min-height:55px;
     padding:0 15px 5px 15px;
+    color:slategray;
 }
 /*navbar tab labels*/
 .navbar-default .navbar-nav li a {
@@ -58,7 +59,7 @@ html, body{
     border: 4px;
     border-radius:55px;
     background-color: transparent;
-    border-style: dotted;
+    border-style: solid;
     border-color: plum;
     color:slategray;
 }
