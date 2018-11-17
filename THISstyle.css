@@ -104,8 +104,24 @@ footer{
     border-radius:15px;
 }
 
+.lead{
+    font-weight: 320;
+    padding:30px;
+    font-size: 23px;
+    color:rgb(191, 126, 191);
+}
 
+.lead2 {
+    font-weight:320;
+    padding: 30px;
+    font-size: 23px;
+    color:rgb(191, 126, 191);
+}
 
+.bigSky {
+    font-size: 18px;
+    padding: 20px;
+}
 
 
 
